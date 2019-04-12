@@ -1,0 +1,55 @@
+html{
+  font-size: 2vw;
+}
+
+body{
+  background-color: #F5F5F5;
+}
+
+.title_todos{
+  color: #FFE4C4;
+  font-size: 2rem;
+  margin: 5% 0 0 0;
+  padding: 0 40% 0 45%;
+}
+
+input{
+  width: 25%;
+  height: 6%;
+  font-size: 0.7rem;
+  border: white solid 0px;
+  float: left;
+}
+input:focus{
+  outline: none;
+}
+
+.button_down{
+  color: #F5F5F5;
+  font-size:1rem;
+  padding-top: 0.4%;
+  padding-left: 0.5%;
+  background-color: white;
+  width: 3%;
+  height: 5.2%;
+  margin: 0 0 0 37%;
+  float: left;
+}
+.button_down:hover{
+  cursor: pointer;
+}
+
+#main_list{
+  width: 29%;
+  background-color: red;
+  margin:0 0 0 37%;
+  float: left;
+}
+
+.list{
+  width: 100%;
+  height: 3vw;
+  background-color: green;
+
+}
+
