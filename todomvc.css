@@ -53,24 +53,41 @@ input:focus{
   background-color: white;
   float: left;
 }
-.div_list p{
+.p_list_unfinished{
   margin: 0px;
   font-size: 0.7rem;
   color: #0D0D0D;
   line-height: 3vw;
+}
+.p_list_finished{
+  margin: 0px;
+  font-size: 0.7rem;
+  color: #DEDEDE;
+  line-height: 3vw;
+  text-decoration:line-through;
 }
 
 .status_list{
   width: 12%;
   height: 6vh;
   float: left;
-  background-color: red;
+  font-size: 0.9rem;
+  color: #FFE4C4;
+  border-bottom: #E8E8E8 solid 0.3px;
+}
+.status_list:hover{
+  cursor: pointer;
 }
 
 .delete_list{
   width: 10%;
   height: 6vh;
   float: left;
-  background-color: green;
+  font-size: 0.9rem;
+  color:#FFE4C4;
+  border-bottom: #E8E8E8 solid 0.3px;
+}
+.delete_list:hover{
+  cursor: pointer;
 }
 
